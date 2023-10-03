@@ -1,0 +1,264 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/* nav section*/
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* main section */
+.main {
+    text-align: center;
+    padding:50px 0;
+
+}
+
+.main h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.main p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+} 
+
+/* buttons */
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+/* Learn More section */
+
+.learn-more {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.learn-more h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.learn-more p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.learn-more ul {
+    list-style-type: disc;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.learn-more ul li {
+    font-size: 16px;
+    color: #666;
+}
+
+.learn-more a.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.learn-more a.cta-button:hover {
+    background-color: #333;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.features .feature {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.features p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.features ul li {
+    font-size: 16px;
+    color: #666;
+    margin-left: 20px;
+}
+
+/* Team member section */
+
+.our-team {
+    text-align: center;
+    margin:35px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.our-team h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.team-members-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.team-member p {
+    color: #666;
+}
+
+/* Contact Us section */
+
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #333;
+}
+
+/* Footer section */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
